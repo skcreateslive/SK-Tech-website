@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif !important;
+}
+
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary:#000000;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #C850C0;
+}
+
+h1, h2,h3,h4,h5{
+    font-family: 'Lexend Deca', sans-serif !important;
+    color: var( --bs-dark-color) !important;
+}
+        
+/* h1{
+    font-size: 3.8rem !;
+} */
+
+h2{
+    line-height: 3rem !important;
+    font-weight: 600 !important;
+    font-size: 2.8rem !important;
+}
+h4{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+h5{
+    line-height: 3rem !important;
+    font-weight: 600 !important;
+    font-size: 1.8rem !important;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var( --bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    text-decoration: none !important;
+    color:#000000 !important;
+}
+
+.bg-main{
+    /* height: 80vh; */
+    position: relative;
+}
+
+
+
+.bg-color{
+    background-color: var(--bs-dark-primary) !important;
+    
+}
+
+.bg-theme{
+
+    color: var( --bs-supporting-color);
+    background-image: none!important;
+}
+
+.fa-star{
+    color: var( --bs-supporting-color);
+}
+
+.nav-link{
+    color: var(--bs-main-color)!important;
+    font-weight: bold !important;
+    font-size: 100% !important;
+}
+
+.nav-link:hover{
+    color: var(--secondary-color) !important;
+}
+
+/* hero section style */
+
+.hero-section .container{
+    display:flex;
+    place-items: center;
+    height: inherit;
+}
+/* .hero-section h1{
+    font-size: 100%;
+} */
+
+/* .hero-section  h1:first-letter{
+    font-size: 10rem;
+    initial-letter: 2 ;
+    padding-right: .2rem;
+    color: var(--secondary-color);
+} */
+
+.hero-video--section{
+    width: 80%;
+   
+}
+.design{
+      color: #29a9fd;
+}
+
+
+.custom-shape-divider-bottom-1720723796 {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1720723796 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 125px;
+}
+
+.custom-shape-divider-bottom-1720723796 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* hero-section-end */
+
+/* middle */
+
+.boxy{
+    /* height: 500px !important; ; */
+    width: 100%  !important   ;
+    background-color:   #ffffff;
+    height: auto;
+}
+
+.mid{
+    /* height: 1000px !important;    */
+    width: 100% !important;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.cov{
+    border: #000000 10px solid;
+}
+.small-box{
+    width: 100%;
+    padding: 8%;
+    
+        background-color: var( --secondary-color);
+    /* background: url("https://bitstreaks.com/webdesign-services-india/images/convenient.webp") 0 0 / cover; */
+    border: #ffffff ;
+    border-radius: 5%;
+}
+
+/* middle-end */
+
+/* footer-section */
+.common-section{
+    padding: 0 0 0 0;
+    position: relative;
+}
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem!important;
+}
+
+.common-title {
+    margin-bottom: 4.2rem;
+}
+
+.services-section{
+    position: relative !important;
+}
+
+.custom-shape-divider-top-1721211308 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1721211308 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1721211308 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.mar{
+    padding:  120px 0 0 0;
+}
+
+.icon-div{
+    width: 5rem;
+    height: 5rem;
+    /*background: #1089ff;*/
+}
+
+.icon-span  {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #1089ff;
+    color: var( --bs-main-color);
+}
+
+.icon-span .fa-brands, .fab{
+    color:white;
+}
+
+.footer{
+    width:100%;
+    height:600px;
+    background-color:#000000;
+    
+   }
+.footer-inner{
+    width:80%;
+    height:70%;
+    border-radius:20px;
+    background-color:rgba(255,255,255,.02);
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    box-shadow:0px 0px 20px 10px #4b4c55;
+    text-align:center;
+    padding: 10% 5% 5% 5%;
+   }
+
+   .dropdown-box {
+    border:transparent !important;
+    background-color: #000000 !important;
+}
+
+.nav-item.dropdown .dropdown-menu{
+    transition: 0.5 ease-in;
+}
+
+@media screen and (min-width: 998px) {
+    .nav-item.dropdown:hover .dropdown-menu{
+     display: block;
+     animation:slideUp 0.5s ease 1;
+
+}
+}
+
+@keyframes slideUp{
+    0%{transform:translateY(30px);
+      opacity: 0;
+    }
+    100%{transform:translateY(0px);
+    opacity: 1;}
+}
+
+ .dropdown-menu .dropdown-item:hover{
+   background-color: #1089ff;
+}
+
