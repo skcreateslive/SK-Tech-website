@@ -1,4 +1,4 @@
-# Digital Marketing Webaite – SK Tech
+# Digital Marketing Website – SK Tech
 
 Responsive Website With pages built using HTML, CSS, and JavaScript.
 
